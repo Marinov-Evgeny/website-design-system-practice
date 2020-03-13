@@ -1,0 +1,103 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 10%;
+}
+
+.container {
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+
+/* Customize colors container */
+
+.color_container {
+    width: 100%;
+}
+
+.color_panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.cool_blue {
+    background-color: #2d5dcc;
+    color: #fff;
+}
+
+.pink {
+    background-color: #d957d9;
+    color: #000;
+}
+
+.mint_green {
+    background-color: #4fe0b0;
+    color: #000;
+}
+
+.beige {
+    background-color: #efd9ca;
+    color: #000;
+}
+
+
+/* Customize fonts container */
+
+.font_panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font_label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-weight: regular;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.source_code_pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nunito_sans {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Customize text styles container */
+
+.text_styles_panel h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.text_styles_panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text_styles_panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
